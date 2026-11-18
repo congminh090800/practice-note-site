@@ -2,4 +2,4 @@
 
 Trang hỗ trợ và chính sách quyền riêng tư của app Practice Note.
 
-Góp ý và báo lỗi: mở một issue trong repo này.
+Liên hệ: congminh090800@gmail.com
