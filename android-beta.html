@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Practice Note cho Android · Dùng thử</title><style>
+:root { color-scheme: light; }
+body { margin: 0; background: #F4EDDD; color: #2E2C2A; font: 17px/1.6 -apple-system, "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 560px; margin: 0 auto; padding: 48px 20px 72px; }
+h1 { font-size: 28px; line-height: 1.25; margin: 0 0 6px; }
+.sub { color: #6F6A61; margin: 0 0 28px; }
+ol { list-style: none; padding: 0; margin: 0; counter-reset: s; }
+li { counter-increment: s; background: #FBF7EE; border: 1px solid #D8D0C2; border-radius: 16px; padding: 18px 18px 20px; margin-bottom: 14px; }
+li h2 { font-size: 18px; margin: 0 0 4px; color: #2E2C2A; }
+li h2::before { content: counter(s) ". "; color: #4F7A5B; }
+li p { margin: 0 0 14px; color: #3C3934; font-size: 15px; }
+.btn { display: block; text-align: center; background: #4F7A5B; color: #FBF7EE; text-decoration: none; font-weight: 600; padding: 14px 16px; border-radius: 12px; }
+.btn:active { opacity: .85; }
+.help { margin-top: 28px; font-size: 15px; color: #3C3934; }
+.help h2 { font-size: 17px; color: #4F7A5B; margin: 0 0 6px; }
+.help ul { padding-left: 20px; margin: 0; }
+a { color: #A8503E; }
+nav { margin-top: 36px; padding-top: 16px; border-top: 1px solid #D8D0C2; font-size: 14px; color: #6F6A61; }
+.en { display: none; } html[lang="en"] .vi { display: none; } html[lang="en"] .en { display: revert; }
+</style></head><body><main>
+<h1><span class="vi">Dùng thử Practice Note trên Android</span><span class="en">Try Practice Note on Android</span></h1>
+<p class="sub"><span class="vi">Mở trang này trên điện thoại hoặc máy tính bảng Android, làm lần lượt 3 bước, mỗi bước một lần. · </span><span class="en">Open this page on your Android phone or tablet and do the three steps once, in order. · </span><a href="#" id="lang"><span class="vi">English</span><span class="en">Tiếng Việt</span></a></p>
+
+<ol>
+<li><h2><span class="vi">Tham gia nhóm người thử</span><span class="en">Join the testers group</span></h2>
+<p><span class="vi">Đăng nhập bằng tài khoản Google bạn dùng trên Google Play, bấm "Tham gia nhóm" (Join group), rồi quay lại trang này.</span><span class="en">Sign in with the Google account you use on Google Play, tap "Join group", then come back here.</span></p>
+<a class="btn" href="https://groups.google.com/g/practicenote-android-testers"><span class="vi">Mở nhóm</span><span class="en">Open the group</span></a></li>
+
+<li><h2><span class="vi">Trở thành người thử nghiệm</span><span class="en">Become a tester</span></h2>
+<p><span class="vi">Bấm "Trở thành người thử nghiệm" (Become a tester). Bước này mới tính bạn là người thử.</span><span class="en">Tap "Become a tester". This is the step that counts you as a tester.</span></p>
+<a class="btn" href="https://play.google.com/apps/testing/com.minhle.practicenote"><span class="vi">Trở thành người thử nghiệm</span><span class="en">Become a tester</span></a></li>
+
+<li><h2><span class="vi">Cài app từ Google Play</span><span class="en">Install from Google Play</span></h2>
+<p><span class="vi">Cài như mọi app khác. Bản mới sẽ tự về qua Google Play.</span><span class="en">Install it like any other app. Updates arrive through Google Play.</span></p>
+<a class="btn" href="https://play.google.com/store/apps/details?id=com.minhle.practicenote"><span class="vi">Mở Google Play</span><span class="en">Open Google Play</span></a></li>
+</ol>
+
+<div class="help">
+<h2><span class="vi">Nếu gặp trục trặc</span><span class="en">If something goes wrong</span></h2>
+<ul>
+<li><span class="vi">Play báo không tìm thấy app: chờ vài phút sau bước 2 rồi thử lại.</span><span class="en">Play says the app isn't found: wait a few minutes after step 2 and try again.</span></li>
+<li><span class="vi">Máy có nhiều tài khoản Google: trong Google Play, chọn đúng tài khoản đã tham gia nhóm.</span><span class="en">Several Google accounts on the device: in Google Play, switch to the account that joined the group.</span></li>
+<li><span class="vi">Xin ở lại ít nhất 14 ngày và thỉnh thoảng mở app; Google cần vậy để app được lên Google Play chính thức.</span><span class="en">Please stay at least 14 days and open the app now and then; Google needs this before the app can go public.</span></li>
+<li><span class="vi">Góp ý hay báo lỗi:</span><span class="en">Feedback or bugs:</span> <a href="mailto:congminh090800@gmail.com">congminh090800@gmail.com</a></li>
+</ul>
+</div>
+<nav><a href="index.html"><span class="vi">Hỗ trợ</span><span class="en">Support</span></a> · <a href="privacy-android.html"><span class="vi">Quyền riêng tư</span><span class="en">Privacy</span></a> · © 2026 Minh Le</nav>
+</main>
+<script>
+const h=document.documentElement;if(!/^vi/i.test(navigator.language||'')&&location.hash!=='#vi')h.lang='en';
+document.getElementById('lang').onclick=e=>{e.preventDefault();h.lang=h.lang==='en'?'vi':'en'};
+</script>
+</body></html>
