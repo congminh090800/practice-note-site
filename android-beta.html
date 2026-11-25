@@ -7,12 +7,14 @@ main { max-width: 560px; margin: 0 auto; padding: 48px 20px 72px; }
 h1 { font-size: 28px; line-height: 1.25; margin: 0 0 6px; }
 .sub { color: #6F6A61; margin: 0 0 28px; }
 ol { list-style: none; padding: 0; margin: 0; counter-reset: s; }
-li { counter-increment: s; background: #FBF7EE; border: 1px solid #D8D0C2; border-radius: 16px; padding: 18px 18px 20px; margin-bottom: 14px; }
+ol > li { counter-increment: s; background: #FBF7EE; border: 1px solid #D8D0C2; border-radius: 16px; padding: 18px 18px 20px; margin-bottom: 14px; }
 li h2 { font-size: 18px; margin: 0 0 4px; color: #2E2C2A; }
 li h2::before { content: counter(s) ". "; color: #4F7A5B; }
 li p { margin: 0 0 14px; color: #3C3934; font-size: 15px; }
 .btn { display: block; text-align: center; background: #4F7A5B; color: #FBF7EE; text-decoration: none; font-weight: 600; padding: 14px 16px; border-radius: 12px; }
 .btn:active { opacity: .85; }
+.url { display: block; margin-top: 8px; font-size: 13px; line-height: 1.4; color: #6F6A61; word-break: break-all; text-align: center; }
+.url a { color: #6F6A61; }
 .help { margin-top: 28px; font-size: 15px; color: #3C3934; }
 .help h2 { font-size: 17px; color: #4F7A5B; margin: 0 0 6px; }
 .help ul { padding-left: 20px; margin: 0; }
@@ -26,15 +28,18 @@ nav { margin-top: 36px; padding-top: 16px; border-top: 1px solid #D8D0C2; font-s
 <ol>
 <li><h2><span class="vi">Tham gia nhóm người thử</span><span class="en">Join the testers group</span></h2>
 <p><span class="vi">Đăng nhập bằng tài khoản Google bạn dùng trên Google Play, bấm "Tham gia nhóm" (Join group), rồi quay lại trang này.</span><span class="en">Sign in with the Google account you use on Google Play, tap "Join group", then come back here.</span></p>
-<a class="btn" href="https://groups.google.com/g/practicenote-android-testers"><span class="vi">Mở nhóm</span><span class="en">Open the group</span></a></li>
+<a class="btn" href="https://groups.google.com/g/practicenote-android-testers"><span class="vi">Mở nhóm</span><span class="en">Open the group</span></a>
+<span class="url"><a href="https://groups.google.com/g/practicenote-android-testers">https://groups.google.com/g/practicenote-android-testers</a></span></li>
 
 <li><h2><span class="vi">Trở thành người thử nghiệm</span><span class="en">Become a tester</span></h2>
 <p><span class="vi">Bấm "Trở thành người thử nghiệm" (Become a tester). Bước này mới tính bạn là người thử.</span><span class="en">Tap "Become a tester". This is the step that counts you as a tester.</span></p>
-<a class="btn" href="https://play.google.com/apps/testing/com.minhle.practicenote"><span class="vi">Trở thành người thử nghiệm</span><span class="en">Become a tester</span></a></li>
+<a class="btn" href="https://play.google.com/apps/testing/com.minhle.practicenote"><span class="vi">Trở thành người thử nghiệm</span><span class="en">Become a tester</span></a>
+<span class="url"><a href="https://play.google.com/apps/testing/com.minhle.practicenote">https://play.google.com/apps/testing/com.minhle.practicenote</a></span></li>
 
 <li><h2><span class="vi">Cài app từ Google Play</span><span class="en">Install from Google Play</span></h2>
 <p><span class="vi">Cài như mọi app khác. Bản mới sẽ tự về qua Google Play.</span><span class="en">Install it like any other app. Updates arrive through Google Play.</span></p>
-<a class="btn" href="https://play.google.com/store/apps/details?id=com.minhle.practicenote"><span class="vi">Mở Google Play</span><span class="en">Open Google Play</span></a></li>
+<a class="btn" href="https://play.google.com/store/apps/details?id=com.minhle.practicenote"><span class="vi">Mở Google Play</span><span class="en">Open Google Play</span></a>
+<span class="url"><a href="https://play.google.com/store/apps/details?id=com.minhle.practicenote">https://play.google.com/store/apps/details?id=com.minhle.practicenote</a></span></li>
 </ol>
 
 <div class="help">
