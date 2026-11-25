@@ -31,7 +31,7 @@ a { color: #A8503E; } nav { margin-top: 44px; padding-top: 18px; border-top: 1px
 <p>If you turn on "Sync with iCloud", your notes, decks, labels, favorite pens and pictures are stored in your own iCloud (Apple's CloudKit service), so they appear on your other devices signed in with the same Apple Account. This data lives in your iCloud account and counts toward your iCloud storage; I cannot see it. Turning sync off stops that device from syncing; what is already in iCloud stays there until you delete it in your iCloud settings.</p>
 
 <h2>Update check (optional, on by default)</h2>
-<p>Each time you open or return to the app and the device is online, the app asks Apple's App Store whether a new version is out, to let you know. The request contains only the app's identifier, nothing about you or your data. You can turn this off in the app's Settings ("Tell me about new versions").</p>
+<p>Each time you open or return to the app and the device is online, the app asks Apple's App Store whether a new version is out, to let you know. The request contains only the app's identifier, nothing about you or your data. At the same time, the app reads a small settings file from the app's own website to decide whether to suggest an update; this request sends nothing about you. You can turn this off in the app's Settings ("Tell me about new versions").</p>
 
 <h2>Anonymous usage data (optional, on by default)</h2>
 <p>Since version 1.1.1 the app sends some anonymous information about how it is used to <a href="https://posthog.com/privacy">PostHog</a>, the analytics service I use, with servers in the United States. The purpose is to learn which features are used and where the app runs into errors, so I can fix bugs and make it better.</p>
