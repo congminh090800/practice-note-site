@@ -49,7 +49,7 @@ nav { margin-top: 36px; padding-top: 16px; border-top: 1px solid #D8D0C2; font-s
 <nav><a href="index.html"><span class="vi">Hỗ trợ</span><span class="en">Support</span></a> · <a href="privacy-android.html"><span class="vi">Quyền riêng tư</span><span class="en">Privacy</span></a> · © 2026 Minh Le</nav>
 </main>
 <script>
-const h=document.documentElement;if(!/^vi/i.test(navigator.language||'')&&location.hash!=='#vi')h.lang='en';
+const h=document.documentElement;if(location.hash==='#en')h.lang='en';
 document.getElementById('lang').onclick=e=>{e.preventDefault();h.lang=h.lang==='en'?'vi':'en'};
 </script>
 </body></html>
